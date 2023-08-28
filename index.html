@@ -228,30 +228,30 @@
         <p>COZYCUP Coffee House located in Rizal Ave, cor Lacao St, Puerto Princesa, Palawan</p>
         <h3>LOCATION</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.304972627924!2d118.73812437421027!3d9.740213477452642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b563ddd644266d%3A0xa405e0d4cba4287f!2sRizal%20Avenue%20%26%20Lacao%20St%2C%20Puerto%20Princesa%2C%20Palawan!5e0!3m2!1sen!2sph!4v1693126974688!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <p>Have questions or feedback? Contact us on our social media accounts.</p>
-
+        <p>Have questions or feedback? Contact us here.</p>
         <h3>Contact Form</h3>
-
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="message.txt">
-            <label for="Name" class="fcf-label">Your name</label>
-            <div class="fcf-input-group">
-                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Email" class="fcf-label">Your email address</label>
-            <div class="fcf-input-group">
-                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-            </div>
-        <div class="fcf-form-group">
-            <label for="Message" class="fcf-label">Your message</label>
-            <div class="fcf-input-group">
-                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-            </div>
-        </div>
-        <div class="fcf-form-group">
-            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
-        </div>
-        
+        <table>
+        <tr> <td>
+        <label for="Name">Name:</label>
+        </td> <td>
+        <input name="Name" type="text" maxlength="60"/>
+        </td> </tr> 
+        <tr> <td>
+        <label for="PhoneNumber">Phone number:</label>
+        </td> <td>
+        <input name="PhoneNumber" type="text" maxlength="43"/>
+        </td> </tr> 
+        <tr> <td>
+        <label for="FromEmailAddress">Email address:</label>
+        </td> <td>
+        <input name="FromEmailAddress" type="text" maxlength="90"/>
+        </td> </tr> 
+        <tr> <td>
+        <label for="Comments">Comments:</label>
+        </td> <td>
+        <textarea name="Comments" rows="7" cols="40"></textarea>
+        </table>
+        <a href="#" class="SubButton">Submit</a>
     </section>
 
     <footer>
